@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Aqui abaixo fica o link do css em boostrap-->
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+
+    <title>Minha Loja</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Minha Loja</h1>
+        </header>
+        <br />
+        <hr />
+        <br />
+    <div class="container">
+        <div class="row">
+    <!--Aqui temos um carousel de imagens dos produtos-->
+    <div id="carousel-produtos" class="carousel slide" data-bs-ride="carousel">
+        <div class carousel-inner>
+            <div data-bs-interval="700" class="carousel-item active">
+                <img src="./imagens/Fone01.png" alt="Fone headset AKG">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagens/Fone02.png" alt="Fone headset G435">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagens/Fone03.png" alt="Fone headset Black 8">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagens/PC Gamer 01.png" alt="PC Gamer Black Cooler Color">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagens/PC Gamer 02.png" alt="PC Gamer Casa Blanca">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagens/PC Gamer 03.png" alt="PC Gamer Completo">
+            </div>
+        </div>
+            <button data-bs-target="#carousel-produtos" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon btn btn-secondary"></span>
+            </button>
+
+            <button data-bs-target="#carousel-produtos" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon btn btn-secondary"></span>
+            </button>
+        </div>
+    </div>
+
+
+        <!--Aqui entra a linha 1 de produtos-->
+        <div id="produtos" class="row g-0" >
+                <div class="col-sm-12 col-md-6 col-lg-4" style="padding: 5px;">
+                    <div class="card" style="text-align: center;">
+                        <div class="card-header">
+                            <h5>Fone AKG O Melhor</h5>
+                        </div>
+                            <img style="width: 100%;" src="./imagens/Fone01.png" alt="">
+                        <div class="car-body">
+                            <p>Com o Fone AKG diga adeus a interferência sonora externa,
+                                compre e confira a qualidade de ponta.</p>
+                        </div>
+                        <div class="card-footer" style="text-align: end;">
+                            <a href="#" class="btn btn-success">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4" style="padding: 5px;">
+                    <div class="card" style="text-align: center;">
+                        <div class="card-header">
+                            <h5>Fone G435 Ases Indomáveis</h5>
+                        </div>
+                            <img style="width: 100%;" src="./imagens/Fone02.png" alt="">
+                        <div class="car-body">
+                            <p>Sinta a comunicação de ponta como se fosse um piloto de caça, dos grandes filmes de Holliood</p>
+                        </div>
+                        <div class="card-footer" style="text-align: end;">
+                            <a href="#" class="btn btn-success">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4" style="padding: 5px;">
+                    <div class="card" style="text-align: center;">
+                        <div class="card-header">
+                            <h5>Fone G435 Ases Indomáveis</h5>
+                        </div>
+                            <img style="width: 100%;" src="./imagens/Fone03.png" alt="">
+                        <div class="car-body">
+                            <p>O Black OGG para jogadores de campeonatos,
+                                 sendo leve de fácil transporte e alta qualidade de audio.</p>
+                        </div>
+                        <div class="card-footer" style="text-align: end;">
+                            <a href="#" class="btn btn-success">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+        <!--Aqui entra a linha 2 de produtos-->
+            <div class="col-sm-12 col-md-6 col-lg-4" style="padding: 5px;">
+                <div class="card" style="text-align: justify; padding: 8px;">
+                    <div class="card-header">
+                        <h5>Miráculos PC Gamer</h5>
+                    </div>
+                        <img style="width: 100%;" src="./imagens/PC Gamer 01.png" alt="">
+                    <div class="car-body">
+                        <p>Com uma placa de vídeo Geforce RTX 7890, para armazenamento um SSD de 4 Terabytes,
+                             na memória uma pista de 16 gigabytes e no processador apenas um Intel LGA 1700 Core i5,
+                              mas este mesmo processador contendo contendo uma cache de 32 Gygabytes. Sim um verdadeiro mostro dos Games. </p>
+                    </div>
+                    <div class="card-footer" style="text-align: end;">
+                        <a href="#" class="btn btn-success">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card" style="text-align: justify; padding: 8px;">
+                    <div class="card-header">
+                        <h5>Casa Blanca PC Gamer</h5>
+                    </div>
+                        <img style="width: 100%;" src="./imagens/PC Gamer 02.png" alt="">
+                    <div class="car-body">
+                        <p>Com uma placa de vídeo Geforce RTX 7890, para armazenamento um SSD de 4 Terabytes,
+                             na memória uma pista de 16 gigabytes e no processador apenas um Intel LGA 1700 Core i5,
+                              mas este mesmo processador contendo contendo uma cache de 32 Gygabytes. Sim um verdadeiro mostro dos Games. </p>
+                    </div>
+                    <div class="card-footer" style="text-align: end;">
+                        <a href="#" class="btn btn-success">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card" style="text-align: justify; padding: 8px;">
+                    <div class="card-header">
+                        <h5>Casa Blanca PC Gamer</h5>
+                    </div>
+                        <img style="width: 100%;" src="./imagens/PC Gamer 03.png" alt="">
+                    <div class="car-body">
+                        <p>Com uma placa de vídeo Geforce RTX 7890, para armazenamento um SSD de 4 Terabytes,
+                             na memória uma pista de 16 gigabytes e no processador apenas um Intel LGA 1700 Core i5,
+                              mas este mesmo processador contendo contendo uma cache de 32 Gygabytes. Sim um verdadeiro mostro dos Games. </p>
+                    </div>
+                    <div class="card-footer" style="text-align: end;">
+                        <a href="#" class="btn btn-success">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
