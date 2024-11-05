@@ -1,0 +1,27 @@
+
+
+body {
+    background-color: #f1f1f1;
+}
+
+
+
+.container {
+    background-color: #fff;
+}
+
+/* Área Desktop*/
+@media screen and (min-width: 993px) and (max-width: 1920px) {
+.carousel .carousel-item > img {
+    max-width: 30%;
+    margin-left: 400px;
+    }
+}
+
+/* Área Smartphone*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+.carousel .carousel-item > img {
+    max-width: 50%;
+    margin-left: 150px;
+    }
+}
