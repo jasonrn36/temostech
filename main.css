@@ -31,7 +31,7 @@ header {
 
 .submenu {
     display: none;
-    border: 1px solid red;
+    border: 1px solid rgb(238, 76, 0);
     background-color: rgba(23, 17, 7, 0.5);
     position: absolute;
     left: 0;
@@ -68,10 +68,20 @@ header {
     background-color: #fff;
 }
 
+.footer {
+    padding: 10px;
+    background-color: rgb(238, 76, 0);
+    color: #fff;
+}
+.footer p {
+    font-size: 0.7em;
+    text-align: center;
+}
+
 /* Área Desktop*/
 @media screen and (min-width: 993px) and (max-width: 1920px) {
     .carousel .carousel-inner .carousel-item > img {
-    max-width: 30%;
+    max-width: 20%;
     margin-left: 400px;
     }
 
