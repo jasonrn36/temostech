@@ -4,7 +4,65 @@ body {
     background-color: #f1f1f1;
 }
 
+.containerHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+header {
+    padding: 16px 0 0;
+    border-bottom: 1px solid #ccc;
+    z-index: 4;
+
+}
+
+/*Aqui são as configurações do menu li*/
+.menu > li {
+    float: left;
+    list-style: none;
+    padding: 16px;
+    position: relative;
+    z-index: 4;
+
+}
+
+/*Aqui estão as ações do submenu*/
+
+.submenu {
+    display: none;
+    border: 1px solid red;
+    background-color: rgba(23, 17, 7, 0.5);
+    position: absolute;
+    left: 0;
+    max-width: 400px;
+    top: 100%;
+    padding: 8px;
+
+}
+
+.submenu li {
+    display: block;
+    padding: 8px;
+    z-index: 4; 
+
+}
+
+.submenu li a {
+    color: #fff;
+}
+
+.clear {
+    clear: both;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.menu > li:hover {
+    border-color: red;
+}
 
 .container {
     background-color: #fff;
@@ -12,15 +70,19 @@ body {
 
 /* Área Desktop*/
 @media screen and (min-width: 993px) and (max-width: 1920px) {
-.carousel .carousel-item > img {
+    .carousel .carousel-inner .carousel-item > img {
     max-width: 30%;
     margin-left: 400px;
+    }
+
+    .container > img {
+        z-index: 1;
     }
 }
 
 /* Área Smartphone*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
-.carousel .carousel-item > img {
+    .carousel .carousel-inner .carousel-item > img {
     max-width: 50%;
     margin-left: 150px;
     }
